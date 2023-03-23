@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Date;
+
 public class Tareas {
 	private String titulo;
 	private String descripcion;
@@ -30,6 +32,8 @@ public class Tareas {
 	}
 
 	public Tareas(String titulo, String descripcion, Date fecha) {
-		throw new UnsupportedOperationException();
+		this.titulo=titulo;
+		this.descripcion=descripcion;
+		this.fecha=fecha;
 	}
 }
